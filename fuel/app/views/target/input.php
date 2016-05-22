@@ -10,6 +10,7 @@
     <script type="text/javascript" src="js/codemura.js"></script>
     <script>
         $(function () {
+            // カンマを挿入
             $('input').keyup(function () {
                 var num = $(this).val();
                 console.log(num);
