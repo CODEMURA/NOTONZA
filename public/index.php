@@ -119,8 +119,5 @@ if (strpos($response->body(), '{exec_time}') !== false or strpos($response->body
 	);
 }
 
-
-
-
 // Send the output to the client
 $response->send(true);
