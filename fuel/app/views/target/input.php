@@ -9,13 +9,17 @@
     <script type="text/javascript" src="js/codemura.js"></script>
     <script>
 
-        comma();
+        $(function(){
+            $('input').keyup(function () {
+                var num = $(this).val();
+                console.log(num);
 
-        function comma(){
-
-            var num = document.getElementsByClassName('formTable__input').val();
-            console.log(num);
-        }
+                if(num.length > 3 && num.length % 3 == 1){
+                    console.log("４けた以上");
+                    
+                }
+            });
+        });
 
     </script>
 </head>
