@@ -1,6 +1,6 @@
 <?php
 
-class Controller_Balance extends Controller{
+class Controller_Balance extends Controller_Base{
 
     public function action_index(){
         
@@ -16,6 +16,6 @@ class Controller_Balance extends Controller{
         $presenter->set('year_to', $year_to);
         $presenter->set('month_to', $month_to);
 
-        return $presenter;
+        $this->template->content = $presenter;
     }
 }

@@ -1,9 +1,9 @@
 <?php
 
-class Controller_Target extends Controller{
+class Controller_Target extends Controller_Base{
 
     public function action_index(){
 
-        return Presenter::forge('target/input');
+        $this->template->content = Presenter::forge('target/input');
     }
 }
