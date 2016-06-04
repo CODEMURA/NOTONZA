@@ -1,6 +1,6 @@
 <?php
 
-class Controller_Summary extends Controller{
+class Controller_Summary extends Controller_Base{
 
     protected $items = [
         'balance',
@@ -22,7 +22,7 @@ class Controller_Summary extends Controller{
             $presenter->set($item, $$item);
         }
 
-        return $presenter;
+        $this->template->content = $presenter;
     }
 
 }
