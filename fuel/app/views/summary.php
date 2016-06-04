@@ -1,14 +1,3 @@
-<!doctype html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>NOTONZA</title>
-    <meta name="description" content="休日もPC">
-    <link rel="stylesheet" href="assets/css/notonza.css" media="all">
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
-    <script type="text/javascript" src="js/codemura.js"></script>
-</head>
-<body>
 <div class="header">
     <header class="globalHeader">
         <div class="globalHeader__wrapper">
@@ -28,5 +17,3 @@
         </div>
     </section>
 </div>
-</body>
-</html>
