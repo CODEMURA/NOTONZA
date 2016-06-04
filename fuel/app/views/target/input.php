@@ -1,10 +1,3 @@
-    <div class="header">
-        <header class="globalHeader">
-            <div class="globalHeader__wrapper">
-                <div class="globalHeader__logo">NOTONZA</div>
-            </div>
-        </header>
-    </div>
     <div class="wrapper">
         <section id="form" class="contents">
             <div class="contents__inner">
