@@ -23,6 +23,7 @@
     </script>
 </head>
 <body>
+<?php echo $menu; ?>
 <?php echo $header; ?>
 <?php echo $content; ?>
 </body>
