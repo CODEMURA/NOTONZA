@@ -29,4 +29,12 @@ function initMonthOptionTags(){
 
 function delimiteDigit(){
 
+    $('[name=target]').keyup(function(){
+        console.log($(this).val());
+
+        var num = $(this).val();
+        num = String(num).replace( /(\d)(?=(\d\d\d)+(?!\d))/g, '$1,');
+
+        $(this).val(num)
+    })
 }
