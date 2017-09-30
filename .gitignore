@@ -8,7 +8,9 @@
 *.tmproj
 build
 .idea
+*.iml
 nbproject/
+
 
 # hidden files created by Windows
 Thumbs.db
