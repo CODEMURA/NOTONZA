@@ -3,6 +3,7 @@
 /**
  * The welcome hello presenter.
  *
+ * @property mixed name
  * @package  app
  * @extends  Presenter
  */

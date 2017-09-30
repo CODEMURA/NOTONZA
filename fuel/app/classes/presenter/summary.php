@@ -5,6 +5,12 @@
  * User: gachakra
  * Date: 4/2/16
  * Time: 21:38
+ * @property mixed diff_to_target
+ * @property int|mixed|string months_to_deadline
+ * @property float average_to_save
+ * @property mixed target
+ * @property mixed year_to
+ * @property mixed month_to
  */
 class Presenter_Summary extends Presenter_Base{
 
